@@ -8,6 +8,7 @@ body{
     margin: 0 auto;
     background-color: white;
     box-shadow: 2px 2px 2px 2px #ddd;
+    padding: 1em;
 }
 
 .date {
@@ -25,6 +26,9 @@ nav {
     padding-inline-start: 0px;
     border-top:1px solid #eee;
     border-bottom:1px solid #eee;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 nav li{
     display: inline;
@@ -39,10 +43,10 @@ li a {
 }
 h2 {
     font-family: roboto slab;
-    padding-top: 15px;
+    /* padding-top: 15px; */
     margin-bottom: 0px;
     font-size: 1.45em;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 h5 {
     color: #dd3232;
@@ -51,25 +55,22 @@ h5 {
     margin-bottom: 20px;
     padding-left: 10px;
 }
-img {
-    padding-left: 10px;
-}
 main p {
     text-align: left;
     font-size: .85em;
     font-family: source sans pro;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    ;
+    /* padding-left: 10px; */
+    /* padding-bottom: 10px; */
 }
 .more-articles {
     border-top: 1px solid #eee;
+    text-align: center;
 }
-section{
+section {
     display: inline-block;
-    width: 45%;
+    width: 46%;
     text-align: left;
-    margin: 0 auto;
+    margin: 0 5px;
 }
 section h4 {
     font-family: roboto slab;
@@ -79,4 +80,6 @@ section p {
     font-size: .85em;
     text-align: left;
 }
-
+img {
+    width: 100%;
+}
